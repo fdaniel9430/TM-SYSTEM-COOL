@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TM SYSTEM COOL - MultiServicios</title>
+  <meta name="description" content="TM System Cool: expertos en aire acondicionado, electricidad, estructuras metálicas, cámaras de seguridad y desarrollo web.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <button class="modo-btn" aria-label="Cambiar modo claro/oscuro" onclick="document.body.classList.toggle('dark-mode')">🌓</button>
+
+  <header class="encabezado-con-video">
+    <video autoplay muted loop playsinline class="video-fondo">
+      <source src="video/video01.mp4" type="video/mp4">
+      Tu navegador no soporta videos HTML5.
+    </video>
+
+    <div class="barra-superior">
+      <div class="logo-slogan">
+        <img src="img/Mi logo.jpg" alt="Logo TM SYSTEM COOL" loading="lazy">
+      </div>
+
+     </div>
+
+      <nav class="menu-principal" aria-label="Menú principal">
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#cotizador">Cotizador</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <h1>Bienvenidos a TM System Cool</h1>
+    <p>Soluciones integrales en tecnología, estructuras y sistemas técnicos</p>
+  </section>
+
+  <section id="nosotros" data-aos="fade-right">
+    <h2>¿Quiénes somos?</h2>
+    <p>TM SYSTEM COOL es una empresa peruana con más de 10 años de experiencia brindando soluciones integrales y de alta calidad en diversas áreas técnicas. Nos especializamos en sistemas electrcos,Refrigeracion,estructuras metalicas,Tecnologia y otros servicios complementarios orientado al desarrollo y modernizacion de hogares, empresas e industriales. Nuestra trayectoria se respalda en un equipo de profesionales altamente capacitados y calificados, tecnologia de vanguardia y un firme compromiso con la seguridad, la eficiencia energetica y la satisfaccion de nuestros clientes. En TM SYSTEN COOL, trabajamos con pasion para brindar servicios confiables, personalizados y adaptados a las necesidades especificas de cada proyecto.</p>
+  </section>
+
+  <section id="servicios" data-aos="fade-up">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicios-grid">
+      <div class="servicio">
+        <img src="img/i6.jpg" alt="Sistema Eléctrico" loading="lazy" />
+        <h3>Sistemas Eléctricos</h3>
+        <p>Instalaciones, mantenimiento y mejora de sistemas eléctricos residenciales e industriales.</p>
+      </div>
+      <div class="servicio">
+        <img src="img/ref0.jpg" alt="Refrigeración" loading="lazy" />
+        <h3>Refrigeración</h3>
+        <p>Soluciones en aire acondicionado, cámaras frigoríficas y sistemas HVAC Automotriz. </p>
+      </div>
+      <div class="servicio">
+        <img src="img/img7.jpg" alt="Estructuras Metálicas" loading="lazy" />
+        <h3>Estructuras Metálicas</h3>
+        <p>Diseño y fabricación de estructuras metálicas para diferentes aplicaciones.</p>
+      </div>
+      <div class="servicio">
+        <img src="img/img6.jpg" alt="Tecnología" loading="lazy" />
+        <h3>Tecnología</h3>
+        <p>Automatización, redes, sistemas inteligentes y soluciones tecnológicas modernas.</p>
+      </div>
+      <div class="servicio">
+        <img src="img/img4.jpg" alt="CCTV Corporativo" loading="lazy" />
+        <h3>CCTV Corporativo</h3>
+        <p>Instalación de camaras en hogares, edificio empresarial.</p>
+      </div>
+      <div class="servicio">
+        <img src="img/img10.png" alt="ACI" loading="lazy" />
+        <h3>ACI</h3>
+        <p>Instalación de alarmas y sistemas contra incendio.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portafolio" data-aos="fade-up">
+    <h2>Portafolio</h2>
+    <div class="grid">
+      <!-- Proyecto 1 -->
+      <div class="card-portafolio">
+        <figure>
+          <img src="img/img11.jpg" alt="Instalación CCTV Corporativo" loading="lazy">
+          <figcaption>
+            <h3>Sistemas Eléctricos</h3>
+            <p>Instalaciones, mantenimiento y mejora de sistemas eléctricos residenciales e industriales.</p>
+            <button onclick="mostrarGaleria(this)" aria-expanded="false" aria-controls="galeria-cctv">Ver galería</button>
+          </figcaption>
+        </figure>
+        <div class="galeria oculto" id="galeria-cctv" aria-hidden="true">
+          <img src="img/cct0.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/cct1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/cct2.png" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+           <img src="img/cct0.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/cct1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/cct2.png" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+           <img src="img/cct0.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/cct1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/cct2.png" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="card-portafolio">
+        <figure>
+          <img src="img/ref2.jpg" alt="Estructura metálica industrial" loading="lazy">
+          <figcaption>
+            <h3>Refrigeración</h3>
+            <p>Soluciones en aire acondicionado, cámaras frigoríficas y sistemas HVAC Automotriz.</p>
+            <button onclick="mostrarGaleria(this)" aria-expanded="false" aria-controls="galeria-cctv">Ver galería</button>
+          </figcaption>
+        </figure>
+        <div class="galeria oculto" id="galeria-cctv" aria-hidden="true">
+          <img src="img/ref0.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/Ref1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/ref2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/est0.png" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/est1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/est2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/est0.png" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/est1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/est2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Proyecto 3 -->
+      <div class="card-portafolio">
+        <figure>
+          <img src="img/est2.jpg" alt="Diseño de página web moderna" loading="lazy">
+          <figcaption>
+            <h3>Estructuras Metálicas</h3>
+            <p>Diseño y fabricación de estructuras metálicas para diferentes aplicaciones.</p>
+            <button onclick="mostrarGaleria(this)" aria-expanded="false" aria-controls="galeria-cctv">Ver galería</button>
+          </figcaption>
+        </figure>
+        <div class="galeria oculto" id="galeria-cctv" aria-hidden="true">
+          <img src="img/pag0.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/Pag1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Proyecto 4 -->
+      <div class="card-portafolio">
+        <figure>
+          <img src="img/pag2.webp" alt="Instalación de tableros eléctricos" loading="lazy">
+          <figcaption>
+            <h3>Tecnología</h3>
+            <p>Instalación de camaras en hogares, edificio empresarial.</p>
+            <button onclick="mostrarGaleria(this)" aria-expanded="false" aria-controls="galeria-cctv">Ver galería</button>
+          </figcaption>
+        </figure>
+        <div class="galeria oculto" id="galeria-cctv" aria-hidden="true">
+          <img src="img/ele0.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/ele1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/ele2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/ele0.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/ele1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/ele2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/ele0.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/ele1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/ele2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Proyecto 5 -->
+      <div class="card-portafolio">
+        <figure>
+          <img src="img/cct0.jpg" alt="Estructura metálica industrial" loading="lazy">
+          <figcaption>
+            <h3>CCTV Corporativo</h3>
+            <p>Instalación de camaras en hogares, edificio empresarial.</p>
+            <button onclick="mostrarGaleria(this)" aria-expanded="false" aria-controls="galeria-cctv">Ver galería</button>
+          </figcaption>
+        </figure>
+        <div class="galeria oculto" id="galeria-cctv" aria-hidden="true">
+          <img src="img/est0.png" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/est1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/est2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/est0.png" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/est1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/est2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/est0.png" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/est1.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/est2.jpg" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Proyecto 6 -->
+      <div class="card-portafolio">
+        <figure>
+          <img src="img/ac0.webp" alt="Diseño de página web moderna" loading="lazy">
+          <figcaption>
+            <h3>ACI</h3>
+            <p>Instalación de alarmas y sistemas contra incendio.</p>
+            <button onclick="mostrarGaleria(this)" aria-expanded="false" aria-controls="galeria-cctv">Ver galería</button>
+          </figcaption>
+        </figure>
+        <div class="galeria oculto" id="galeria-cctv" aria-hidden="true">
+          <img src="img/ac1.jpg" alt="Vista frontal del sistema CCTV" loading="lazy">
+          <img src="img/ac2.jpg" alt="Cámara secundaria del sistema de seguridad" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+          <img src="img/pag2.webp" alt="Centro de monitoreo de videovigilancia" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="testimonios" data-aos="fade-up">
+    <h2>Testimonios</h2>
+    <div class="grid">
+      <div class="card"><p>"Excelente servicio, muy profesionales y rápidos."</p><strong>- Carlos R.</strong></div>
+      <div class="card"><p>"Recomiendo 100% el mantenimiento de aire acondicionado."</p><strong>- Andrea V.</strong></div>
+      <div class="card"><p>"La empresa presta muy buenos servicios de electricidad 100% recomendable."</p><strong>- Elena T.</strong></div>
+    </div>
+  </section>
+
+  <section id="cotizador" data-aos="fade-up">
+    <h2>Cotizador de Servicios</h2>
+    <form id="formCotizacion" onsubmit="event.preventDefault(); calcular();">
+      <label for="servicio">Servicio:</label>
+      <select id="servicio" required>
+        <option value="">-- Selecciona un servicio --</option>
+        <option value="web">Desarrollo Web</option>
+        <option value="aire">Aire Acondicionado</option>
+        <option value="electricidad">Electricidad</option>
+        <option value="camara">Cámaras de Seguridad</option>
+        <option value="incendio">Sistema Contra Incendio</option>
+        <option value="estructura">Estructuras Metálicas</option>
+      </select>
+
+      <label for="tipo">Tipo de Trabajo:</label>
+      <select id="tipo" required>
+        <option value="">-- Selecciona tipo --</option>
+        <option value="instalacion">Instalación</option>
+        <option value="mantenimiento">Mantenimiento</option>
+      </select>
+
+      <button type="submit">Calcular Cotización</button>
+    </form>
+    <div id="resultado" class="resultado-card" style="display: none;"></div>
+  </section>
+
+  <section id="contacto" data-aos="fade-up">
+    <h2>Contacto</h2>
+    <form onsubmit="return validarFormulario()">
+      <input type="text" id="nombre" placeholder="Tu nombre" required />
+      <input type="email" id="correo" placeholder="Tu correo" required />
+      <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="mensaje-exito" style="display: none; color: green; margin-top: 10px;">¡Mensaje enviado correctamente!</div>
+    <div class="redes">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <a href="https://wa.me/51935017311" class="whatsapp" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <a href="#" class="top-btn" title="Volver arriba">↑</a>
+
+  <footer>
+    <p>© 2025 TM System Cool. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
+
+
